@@ -1,0 +1,92 @@
+body{
+    background: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:600px;
+   
+}
+
+
+.container{
+    background:rgba(0, 0, 0, 0.521);
+    width:700px;
+    height:620px;
+    position:relative;
+    top:-30px;
+    left:270px;
+}
+
+#fruitcontainer{
+    background:linear-gradient(rgb(95, 30, 30),red);
+    position:relative;
+    left:80px;
+    top:10px;
+    width:550px;
+    height:350px;
+    overflow: hidden;
+  
+}
+
+#gamename{
+    color:white;
+    position:relative;
+    left:150px;
+    font-size:60px;
+    font-family: 'Permanent Marker', cursive;  
+}
+
+#lifes{
+    background:white;
+    width:130px;
+    position: relative;
+    left:20px;
+    display: none;
+}
+
+#score{
+    background:white;
+    width:100px;
+    position: relative;
+    top:-30px;
+    left:570px;
+    font-size: 20px;
+    padding:5px;
+    display: none;
+}
+
+.heart{
+    width:30px;
+    height:30px;
+    margin:0 5px ;
+}
+
+#start{
+    width:200px;
+    height:45px;
+    background:linear-gradient(green,black);
+    position: relative;
+    margin:10px;
+    top:10px;
+    left:240px;
+    color:white;
+    font-size: 30px;;
+}
+
+.fruit{
+    display:none;
+    position: relative;
+}
+
+#gameover{
+    background: rgb(190, 47, 47);
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    width:450px;
+    /* position: relative; */
+    /* top:80px; */
+    margin: 60px auto;
+    padding:10px;
+    display:none;
+    transition: o.5s all ease-in;
+}
