@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+
+            <title>
+                Fruits Game!
+            </title>
+            <link href="fruitsgame.css" rel="stylesheet">
+            <link rel="stylesheet"
+href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.
+4/themes/smoothness/jquery-ui.css">
+
+<link href="https://fonts.googleapis.com/css?family=Hanalei+Fill|Luckiest+Guy|Pacifico|Permanent+Marker|Rock+Salt|Satisfy&display=swap" rel="stylesheet">
+
+        </head>
+
+        <body>
+            <div class="container">
+                <h1 id="gamename">FRUIT SLICER</h1>
+                <div id="lifes">
+                    <!-- <img src="heart.png" class="heart">
+                    <img src="heart.png" class="heart" >
+                    <img src="heart.png" class="heart"> -->
+
+                </div>
+
+                <div id="score">
+                    Score : <span id="scoreshow">0</span>
+                </div>
+              <div id="fruitcontainer">
+                <img id="fruit1" class="fruit" src="apple.png">
+                <div id="gameover">
+                    <p>GAME OVER</p>
+                    <p>Your Score is :<span id="endscore"></span> </p>
+                </div>
+            </div>
+
+            <button id="start">Start Game</button>
+        </div>
+
+         <audio id="slicesound">
+
+            <source  src="slicefruit.mp3"></source>
+            <source  src="slicefruit.ogg"></source>
+
+        </audio>
+
+
+        <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+
+  <script
+src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4
+/jquery-ui.min.js">
+ </script>
+
+  <script src="fruitsgame.js" type="text/javascript"></script>
+        </body>
+    </html>
